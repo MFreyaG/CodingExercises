@@ -10,7 +10,7 @@ bool containsChar(string subs, char c){
     }
     return false;
 }
-// aabaab!bb
+
 int lengthOfLongestSubstring(string s) {
     int l = 0, best = 0, cur = 0;
     string subs = "";
